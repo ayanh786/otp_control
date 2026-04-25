@@ -1,12 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+/// A customizable OTP (One-Time Password) input field widget.
+///
+/// This widget automatically handles focus movement between fields,
+/// supports obscured input, and provides callbacks for changes and completion.
 class OtpField extends StatefulWidget {
+  /// Number of OTP input fields.
+  /// Must be between 4 and 6.
   final int length;
+
+  /// Width of each OTP input box.
   final double fieldWidth;
+
+  /// If true, hides input characters (useful for secure OTP entry).
   final bool obscureText;
-  final ValueChanged<String>? onCompleted;
+
+  /// Called whenever OTP value changes.
   final ValueChanged<String>? onChanged;
+
+  /// Called when all OTP fields are filled.
+  final ValueChanged<String>? onCompleted;
 
   const OtpField({
     super.key,
