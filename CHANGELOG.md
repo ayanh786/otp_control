@@ -10,3 +10,8 @@
 - onChanged callback for real-time input tracking
 - onCompleted callback when OTP is fully entered
 - Clean Material Design UI implementation
+
+## 0.0.2
+
+### Added
+- Added documentation comments
