@@ -1,0 +1,25 @@
+name: otp_control
+description: A customizable OTP input widget for Flutter with auto focus and callbacks.
+version: 0.0.1
+
+homepage: https://github.com/ayanh786/otp_control
+repository: https://github.com/ayanh786/otp_control
+
+license: MIT
+
+environment:
+  sdk: ^3.11.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/screenshots/
